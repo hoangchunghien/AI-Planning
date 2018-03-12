@@ -29,7 +29,20 @@ Init(At(C1, SFO) ∧ At(C2, JFK)
 	∧ Plane(P1) ∧ Plane(P2)
 	∧ Airport(JFK) ∧ Airport(SFO))
 ```
-- The goal state
+- Goal state
 ```
 Goal(At(C1, JFK) ∧ At(C2, SFO))
+```
+## Problem 2
+- Init state
+```
+Init(At(C1, SFO) ∧ At(C2, JFK) ∧ At(C3, ATL) 
+	∧ At(P1, SFO) ∧ At(P2, JFK) ∧ At(P3, ATL) 
+	∧ Cargo(C1) ∧ Cargo(C2) ∧ Cargo(C3)
+	∧ Plane(P1) ∧ Plane(P2) ∧ Plane(P3)
+	∧ Airport(JFK) ∧ Airport(SFO) ∧ Airport(ATL))
+```
+- Goal state
+```
+Goal(At(C1, JFK) ∧ At(C2, SFO) ∧ At(C3, SFO))
 ```
